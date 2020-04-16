@@ -1,0 +1,9 @@
+mob=input("Enter mobile number :")
+count=0
+for i in mob:
+    if i.isdigit():
+        count=count+1
+if count==10 and mob[0]!='0':
+    print("moblie number is valid")
+else:
+    print("moblie number is not valid")
